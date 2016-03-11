@@ -962,6 +962,14 @@ del .num{
 	width: 156px;
 	/*height: 30px;*/
 	line-height: 30px;	
+	margin-left:80px;
+}
+#dot:before,#dot:after{
+	content:"";
+	display: block;
+}
+#dot:after{
+	clear: both;
 }
 .dot{
 	width: 7px;
